@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb4cb5fe715f7b49b3580fe13db6052, type: 3}
+  m_Name: Enemy_Single_F
+  m_EditorClassIdentifier: 
+  enemyAttackType: 2
+  bulletPrefab: {fileID: 5346125891119601018, guid: e04bc5477f354184da5db04663cf8609,
+    type: 3}
+  attackDamageSO: 1
+  attackSpeedSO: 2
+  attackCooldownSO: 0.2
+  attackRangeSO: 100
+  rapidTimerSO: 0
+  hpSO: 10
+  enemyMoveType: 2
+  moveSpeedSO: 0
+  dropChanceSO: 0.1
+  healingItemSO: {fileID: 4332215509834473355, guid: ebc75fd0ac0ef374f8bb73e0890e5adb,
+    type: 3}
+  dropWeaponSO:
+  - {fileID: 1155450990930402475, guid: e8944e630f9865b4eaac70fe325de4c8, type: 3}
+  - {fileID: 1155450990930402475, guid: ba262246d3ac9fb49bd40c1f21e1074c, type: 3}
+  - {fileID: 1155450990930402475, guid: d0701ef8cfc55b3498a1e33e26b4e514, type: 3}
+  - {fileID: 1155450990930402475, guid: 2941b912ebaff3143b0dc9f5bc936714, type: 3}
+  - {fileID: 1155450990930402475, guid: d72676f6e6e9eda45b96a2f6c76ce7b4, type: 3}
+  - {fileID: 1155450990930402475, guid: d92d08b2281a1ea448c3fd197740e0a9, type: 3}
+  - {fileID: 1155450990930402475, guid: 6ee20d84c265e434cb77a1aede0b92ae, type: 3}
+  - {fileID: 1155450990930402475, guid: 7aa2fb3a894aa894f8681030f1246d4f, type: 3}
+  - {fileID: 1155450990930402475, guid: d60b727ffe912294fa275d0d9c40b316, type: 3}
